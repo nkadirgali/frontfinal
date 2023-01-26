@@ -1,0 +1,49 @@
+let styles = `
+    body{
+        font-family: Montserrat;
+        font-style: normal;
+        background: #070908;
+    }
+`
+let styleSheet = document.createElement("style")
+styleSheet.innerText = styles
+document.head.appendChild(styleSheet)
+
+$(document).ready(function () {
+    $('body').css({"display":"flex", "justify-content":"center", "flex-direction":" column", "align-items": "center"});
+    $('body').append('<div class="card" style="display: flex; width: 45%;color: white; padding: 1rem;"></div>');
+    $('.card').css({"background-color":"rgba(230, 59, 61, 0.07)", "margin":"2rem"});
+    $('.card').append('<img src="img/kanekibio.png" alt="kaneki" style=" margin: 1rem; max-width: 10rem;"></img>');
+    $('.card').append('<div class="def" style="display: flex;flex-direction: column;justify-content: center; align-items: flex-start;"></div>');
+    $('.def').append('<h1>Ken Kaneki</h1>'+'<p>"I`m not the protagonist of a novel or anything. I`m just a college student who likes to read, like you could find anywhere. But... if, for argument`s sake, you were to write a story with me in the lead role, it would certainly be... a tragedy."</p>');
+
+    $('body').append('<div class="card2" style="display: flex; width: 45%;color: white; padding: 1rem;"></div>');
+    $('.card2').css({"background-color":"rgba(230, 59, 61, 0.07)", "margin":"2rem"});
+    $('.card2').append('<img src="img/juuzoubio.png" alt="juuzou" style=" margin: 1rem; max-width: 10rem;"></img>');
+    $('.card2').append('<div class="def2" style="display: flex;flex-direction: column;justify-content: center; align-items: flex-start;"></div>');
+    $('.def2').append('<h1>Juuzou Suzuya</h1>'+'<p>"You shouldn`t turn your back on the enemy."</p>');
+
+    $('body').append('<div class="card3" style="display: flex; width: 45%;color: white; padding: 1rem;"></div>');
+    $('.card3').css({"background-color":"rgba(230, 59, 61, 0.07)", "margin":"2rem"});
+    $('.card3').append('<img src="img/toukabio.png" alt="touka" style=" margin: 1rem; max-width: 10rem;"></img>');
+    $('.card3').append('<div class="def3" style="display: flex;flex-direction: column;justify-content: center; align-items: flex-start;"></div>');
+    $('.def3').append('<h1>Touka Kirishima</h1>'+'<p>"What the hell do you know?! It`s all because I can`t eat, because I could be a target at any time, all because I`m a ghoul! No matter how much I try, there`s a wall I can never jump over, and there`s happiness that I can never have. But I`m still hanging on to life. Despite it all."</p>');
+
+    $('body').append('<div class="card4" style="display: flex; width: 45%;color: white; padding: 1rem;"></div>');
+    $('.card4').css({"background-color":"rgba(230, 59, 61, 0.07)", "margin":"2rem"});
+    $('.card4').append('<img src="img/arimabio.png" alt="arima" style=" margin: 1rem; max-width: 10rem;"></img>');
+    $('.card4').append('<div class="def4" style="display: flex;flex-direction: column;justify-content: center; align-items: flex-start;"></div>');
+    $('.def4').append('<h1>Kishou Arima (有馬 貴将)</h1>'+'<p>"I... I`ve... always... hated it. I hated myself, who only ever stole from others... I feel like I was finally... able to leave something behind..."</p>');
+    
+    $('body').append('<div class="card5" style="display: flex; width: 45%;color: white; padding: 1rem;"></div>');
+    $('.card5').css({"background-color":"rgba(230, 59, 61, 0.07)", "margin":"2rem"});
+    $('.card5').append('<img src="img/etobio.png" alt="eto" style=" margin: 1rem; max-width: 10rem;"></img>');
+    $('.card5').append('<div class="def5" style="display: flex;flex-direction: column;justify-content: center; align-items: flex-start;"></div>');
+    $('.def5').append('<h1>Eto Yoshimura (芳村 愛支)</h1>'+'<p>"..What cannot change can only be broken.<br><br>This is so to me, who left behind everything necessary inside the womb."</p>');
+});
+
+document.onload = function(){
+    event.preventDefault();
+    $('.card').fadeIn(10000);
+}
+

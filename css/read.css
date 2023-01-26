@@ -1,0 +1,122 @@
+body{
+    font-family: Montserrat !important;
+    font-style: normal !important;
+    
+    background: #070908;
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.titleM{
+    margin-top: 5rem;
+}
+.jaiTitle{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6em;
+    line-height: 117px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    color: #E63B3D;
+
+mix-blend-mode: normal;
+}
+.horLine{
+    margin-bottom: 5%;
+    border: 2px solid rgba(255, 255, 255, 0.322);
+    background-color:rgba(255, 255, 255, 0.322) ;
+}
+.chapter{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: rgba(230, 59, 61, 0.07);
+    margin: 2%;
+    justify-content: space-between;
+}
+.chapterNum{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6em;
+    line-height: 117px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin: 0;
+}
+.numberOF{
+    background-color: #070908;
+    padding: 8%;
+    display: flex;
+    align-items: center;
+}
+.chName{
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameOF{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 59px;
+    text-align: center; 
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.imageCh{
+    background-color: #070908;
+}
+.imageCh img{
+    block-size: 100%;
+}
+.s1e1{
+    width: 8.75em;
+    height: 4.2em;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 51.66px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1.125em;
+    }
+.s1e1:hover{
+        transition: transform 0.5s;
+        transform: scale(1.2);
+        background: rgba(230, 59, 61, 0.07);
+        border-radius: 1.125em;
+    }
+.s1e1t{
+    margin-top: 9px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25em;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    color: #C4C4C4;
+    
+    mix-blend-mode: normal;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent a {
+    font-size: 1.6em;
+    margin: 0 2.3rem;
+}

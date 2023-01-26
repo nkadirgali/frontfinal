@@ -1,0 +1,105 @@
+body{
+    font-family: Montserrat;
+    font-style: normal;
+    
+    background: #070908;
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* max-width: 100%;
+    min-width: 100%; */
+    margin: 0 auto;
+}
+.RED{
+    color: #E63B3D;
+}
+.intro{
+    margin-bottom: -5%;
+}
+img{
+    position: relative;
+    image-orientation: top;
+    margin-top: -0.5rem;
+    width: 101%;
+    height: auto;
+    background-size: cover;
+} 
+.information{
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 4%;
+}
+.transition{
+    margin-top: 12%;
+    width: 100%;
+}
+.hrln{
+    border: 5px solid #98999D;
+    background-color: #98999D;
+   margin-left: 15%;
+    margin-right: 15%;
+}
+.links{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+}
+.see{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+}
+.read{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.seeDetail{
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+    align-self: center;
+}
+.readDetail{
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;;
+    align-self: center;
+}
+button{
+    align-self: center;
+    justify-self: center;
+    background: #C4C4C4;
+    border-radius: 77.5px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 7%;
+    margin: 80px;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.seeB{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn btn-outline-danger{
+    padding:15%; 
+    font-size: 300%;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent a {
+    font-size: 1.6em;
+}
+/* nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent a:hover{
+    color: #E63B3D;
+} */
